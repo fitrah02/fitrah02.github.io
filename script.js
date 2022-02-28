@@ -43,7 +43,7 @@ function getHasil (comp, player) {
 
 
  const imgComputer = document.querySelector ('.img-komputer');
- imgComputer.setAttribute('src', 'img/' + PilihanComputer +'.png');
+ imgComputer.setAttribute('src', './'  PilihanComputer +'.png');
 
  const info = document.querySelector('.info');
  info.innerHTML = hasil;
